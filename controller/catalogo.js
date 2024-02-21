@@ -3,7 +3,7 @@ import { validationResult } from "express-validator";
 
 export class catalogoController{
     static async getCatalogo(req,res){
-        const {id_tienda} = req.body
+        const {id_tienda} = req.params
         //Validar que el barcode sea unico
         const obtenerCatalogo = await catalogoModel.getCatalogo(id_tienda)
 
