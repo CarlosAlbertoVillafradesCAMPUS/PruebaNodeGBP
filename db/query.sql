@@ -7,14 +7,9 @@
 -- Versión del servidor: 8.0.36-0ubuntu0.22.04.1
 -- Versión de PHP: 7.4.33
 
-SELECT * FROM tiendas_promociones;
-
-;
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
-
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -29,9 +24,6 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `carritos`
 --
-
-SELECT * FROM tiendas_productos;
-
 CREATE DATABASE Market;
 USE Market;
 CREATE TABLE `carritos` (
